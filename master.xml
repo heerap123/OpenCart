@@ -8,12 +8,12 @@
   	<parameter name="os" value="Windows"></parameter>
   	<parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testCases.TC_001_AccountRegistrationTest"/>
-      <class name="testCases.TC_002_LoginTest"></class>
-      <class name="testCases.TC_003_LoginDDT"></class>
-	  <class name="testCases.TC_004_SearchProductTest"></class>
+<!--      <class name="testCases.TC_001_AccountRegistrationTest"/>-->
+<!--      <class name="testCases.TC_002_LoginTest"></class>-->
+<!--      <class name="testCases.TC_003_LoginDDT"></class>-->
+<!--	  <class name="testCases.TC_004_SearchProductTest"></class>-->
 	  <class name="testCases.TC_005_AddToCartPageTest"></class>
-		<class name="testCases.TC_006_EndToEndTest"></class>
+	  <class name="testCases.TC_006_EndToEndTest"></class>
     </classes>
   </test> <!-- master -->
 </suite> <!-- Suite -->

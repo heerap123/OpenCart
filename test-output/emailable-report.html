@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">master</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,780</td><td></td><td></td></tr>
+<tr><td><a href="#t0">master</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">65,068</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">master &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_006_EndToEndTest</td><td><a href="#m0">endToendTest</a></td><td rowspan="1">1736004731681</td><td rowspan="1">52972</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">master &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_006_EndToEndTest</td><td><a href="#m0">endToendTest</a></td><td rowspan="1">1736009252640</td><td rowspan="1">53707</td></tr><tr><th colspan="4">master &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_005_AddToCartPageTest</td><td><a href="#m1">verify_addToCart</a></td><td rowspan="1">1736009246381</td><td rowspan="1">2581</td></tr></tbody>
 </table>
 <h2>master</h2><h3 id="m0">testCases.TC_006_EndToEndTest#endToendTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=131.0.6778.205)
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7e704115eec924336899371221e3e9b, clickElement {id=f.8DAD8234F3DFF3E45EAAB5D4CAAD59F4.d.6E1739CA53A4A47D0AC16B5B24F47F86.e.230}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51375/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7e704115eec924336899371221e3e9b)] -&gt; xpath: //strong[normalize-space()=&apos;View Cart&apos;]]
-Session ID: c7e704115eec924336899371221e3e9b
+Command: [6cc8cbab38ab88f4e9170cbc21955d50, clickElement {id=f.9183F176B520D7A5C90BB0C4012AA7B9.d.A8377D2219E2E7FE66C057151ACEEE72.e.215}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52464/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6cc8cbab38ab88f4e9170cbc21955d50)] -&gt; xpath: //strong[normalize-space()=&apos;View Cart&apos;]]
+Session ID: 6cc8cbab38ab88f4e9170cbc21955d50
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -37,5 +37,6 @@ Session ID: c7e704115eec924336899371221e3e9b
 	at testCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:87)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC_005_AddToCartPageTest#verify_addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
