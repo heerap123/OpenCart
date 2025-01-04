@@ -1,0 +1,23 @@
+To Run Standalone grid
+----------------------
+cd C:\Users\hp\eclipse-workspace\OpenCart
+java -jar selenium-server-4.20.0.jar standalone
+
+
+To Start Grid on Docker
+----------------------
+cd C:\Users\hp\eclipse-workspace\OpenCart
+docker-compose up
+
+
+To Remove Containers on Docker
+------------------------------
+cd C:\Users\hp\eclipse-workspace\OpenCart
+docker-compose down
+
+
+To Run pom.xml in Command Prompt
+-------------------
+cd C:\Users\hp\eclipse-workspace\OpenCart
+mvn test
+

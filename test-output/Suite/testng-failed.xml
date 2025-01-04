@@ -4,30 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Linux-Chrome(failed)">
-    <parameter name="os" value="Linux"/>
+  <test thread-count="5" name="master(failed)">
+    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_002_LoginTest">
+      <class name="testCases.TC_006_EndToEndTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_login"/>
+          <include name="endToendTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
+      </class> <!-- testCases.TC_006_EndToEndTest -->
     </classes>
-  </test> <!-- Linux-Chrome(failed) -->
-  <test thread-count="5" name="Linux-Firefox(failed)">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC_002_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
-    </classes>
-  </test> <!-- Linux-Firefox(failed) -->
+  </test> <!-- master(failed) -->
 </suite> <!-- Failed suite [Suite] -->
