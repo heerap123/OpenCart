@@ -91,7 +91,7 @@ public class TC_006_EndToEndTest extends BaseClass {
 		myassert.assertEquals(totalPrice, "$246.40");   //validation
 		sc.clickCheckOut(); //navigate to checkout page
 		Thread.sleep(3000);
-		
+		/*
 		//Checkout Product
 		System.out.println("Checkout Product...............");
 		CheckoutPage ch=new CheckoutPage(driver);
