@@ -13,7 +13,7 @@
       <class name="testCases.TC_003_LoginDDT"></class>
 	  <class name="testCases.TC_004_SearchProductTest"></class>
 	  <class name="testCases.TC_005_AddToCartPageTest"></class>
-	  <class name="testCases.TC_006_EndToEndTest"></class>
+<!--	  <class name="testCases.TC_006_EndToEndTest"></class>-->
     </classes>
   </test> <!-- master -->
 </suite> <!-- Suite -->

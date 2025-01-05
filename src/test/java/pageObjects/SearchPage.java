@@ -22,7 +22,7 @@ public class SearchPage extends BasePage{
 	@FindBy(xpath = "//button[@id='button-cart']")
 	WebElement btnAddToCart;
 	
-	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+	@FindBy(xpath = "//div[contains(text(),'Success: You have added ')]")
 	WebElement cmf_msg;
 	
 	

@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
+import pageObjects.MyAccountPage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
@@ -26,12 +27,14 @@ public class TC_005_AddToCartPageTest extends BaseClass{
 			sp.addToCart();
 			
 		}
-		
+	
 		Assert.assertEquals(sp.checkConfMsg(), true);
 		}
 		catch (Exception e) {
 			Assert.fail();
 		}
+		
+		
 		
 	}
 

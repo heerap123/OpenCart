@@ -9,34 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">master</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">65,068</td><td></td><td></td></tr>
+<tr><td><a href="#t0">master</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">77,026</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">master &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_006_EndToEndTest</td><td><a href="#m0">endToendTest</a></td><td rowspan="1">1736009252640</td><td rowspan="1">53707</td></tr><tr><th colspan="4">master &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_005_AddToCartPageTest</td><td><a href="#m1">verify_addToCart</a></td><td rowspan="1">1736009246381</td><td rowspan="1">2581</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">master &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_001_AccountRegistrationTest</td><td><a href="#m0">verify_account_registration</a></td><td rowspan="1">1736057436672</td><td rowspan="1">2500</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_002_LoginTest</td><td><a href="#m1">verify_login</a></td><td rowspan="1">1736057442668</td><td rowspan="1">1554</td></tr><tr class="passedeven"><td rowspan="6">testCases.TC_003_LoginDDT</td><td><a href="#m2">verify_loginDDT</a></td><td rowspan="6">1736057460552</td><td rowspan="6">3252</td></tr><tr class="passedeven"><td><a href="#m3">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m4">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m5">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m6">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m7">verify_loginDDT</a></td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_004_SearchProductTest</td><td><a href="#m8">verify_pruductSearch</a></td><td rowspan="1">1736057483668</td><td rowspan="1">610</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_005_AddToCartPageTest</td><td><a href="#m9">verify_addToCart</a></td><td rowspan="1">1736057488145</td><td rowspan="1">2396</td></tr></tbody>
 </table>
-<h2>master</h2><h3 id="m0">testCases.TC_006_EndToEndTest#endToendTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6cc8cbab38ab88f4e9170cbc21955d50, clickElement {id=f.9183F176B520D7A5C90BB0C4012AA7B9.d.A8377D2219E2E7FE66C057151ACEEE72.e.215}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52464/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6cc8cbab38ab88f4e9170cbc21955d50)] -&gt; xpath: //strong[normalize-space()=&apos;View Cart&apos;]]
-Session ID: 6cc8cbab38ab88f4e9170cbc21955d50
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.ShoppingCartPage.clickviewCart(ShoppingCartPage.java:33)
-	at testCases.TC_006_EndToEndTest.endToendTest(TC_006_EndToEndTest.java:87)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC_005_AddToCartPageTest#verify_addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>master</h2><h3 id="m0">testCases.TC_001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC_002_LoginTest#verify_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC_003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>lakshmi@yahoo.com</td><td>Laxmi</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC_003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>laksh@yahoo.com</td><td>Lakshmi</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC_003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>heeraprasad1@gmail.com</td><td>Hps@123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC_003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>abc123@gmail.com</td><td>test@123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC_003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>laks@yahoo.com</td><td>xyz</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC_003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>pavanoltraining@gmail.com</td><td>test@123</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC_004_SearchProductTest#verify_pruductSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC_005_AddToCartPageTest#verify_addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
